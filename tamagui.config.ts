@@ -1,4 +1,4 @@
-import { createTamagui, createTokens } from '@tamagui/core'
+import { createFont, createTamagui, createTokens } from '@tamagui/core'
 import { createMedia } from '@tamagui/react-native-media-driver'
 
 const tokens = createTokens({
@@ -40,6 +40,24 @@ const appConfig = createTamagui({
             background: tokens.color.primary,
             foreground: tokens.color.secondary,
         },
+    },
+    fonts: {
+        body: createFont({
+            family: 'FiraCode',
+            size: {
+                1: 12,
+                2: 14,
+                3: 15,
+            },
+            weight: {
+                4: '400',
+                7: '700',
+            },
+            face: {
+                '400': { normal: 'FiraCode' },
+                '700': { normal: 'FiraCodeBold' },
+            },
+        }),
     },
     media: createMedia({
         sm: { minWidth: 640 },

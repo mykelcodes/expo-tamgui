@@ -2,5 +2,6 @@
 .is_Text .is_Text {display:inline-flex;}
 ._dsp_contents {display:contents;}
 :root { --color-1:#000000; --color-2:#ffffff; --space-1:0px; --space-2:4px; --space-3:8px; --space-4:12px; --space-5:16px; --space-6:24px; --size-1:0px; --size-2:4px; --size-3:8px; --size-4:12px; --size-5:16px; --size-6:24px; --size-7:80px; --size-8:100px; --size-9:200px }
+:root .font_body, :root .t_lang-body-default .font_body { --f-fa:FiraCode, sans-serif; --f-si-1:12px; --f-si-2:14px; --f-si-3:15px; --f-we-1:400; --f-we-2:400; --f-we-3:400; --f-we-4:400; --f-we-5:700 }
 :root .t_dark .t_light, :root .t_dark .t_light .t_dark .t_light, :root .t_light, :root .t_light .t_dark .t_light {--background:var(--color-2);--foreground:var(--color-1);}
 :root .t_dark, :root .t_dark .t_light .t_dark, :root .t_light .t_dark, :root .t_light .t_dark .t_light .t_dark {--background:var(--color-1);--foreground:var(--color-2);}
